@@ -5,35 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=, initial-scale=1.0">
         <title>Document</title>
-        
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-            body{
-                font-family: 'Roboto', sans-serif;
-                margin: 0%;
-            }
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+        <link href="css/styles.css" rel="stylesheet">
 
-            button{
-                border: none;
-            }
-
-            input{
-                border: none;
-            }
-
-            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                        color: white;
-                        opacity: 1; /* Firefox */
-            }
-
-            :-ms-input-placeholder { /* Internet Explorer 10-11 */
-                        color: white;
-            }
-
-            ::-ms-input-placeholder { /* Microsoft Edge */
-                        color: white;
-            }
-        </style>
     </head>
 
     <body>
@@ -75,6 +49,7 @@
                     <img src="./img/pawprint 1.png" alt="Paw print">
                     <h2 style="color: #3C2313;">Productos Destacados</h2>
                     <p style="color: #666666;">Comederos    -   Accesorios    -    Comida</p>
+                                        
                 </header>
 
                 <section style="display: flex; align-items: center; justify-content: center;" align="center">
@@ -99,11 +74,11 @@
             <article id="formulario_de_contacto" align="center">
                 <h2 style="color: #3C2313; " >Contáctanos</h2>
                 <form action="">
-                    <input type="text" style="background-color: #3C2313; border-radius: 15px; width: 340px; height: 40px; border: none;" placeholder="   Nombre y Apellido"> <br>
+                    <input type="text" style="background-color: #3C2313; border-radius: 15px; width: 340px; height: 40px; border: none;" placeholder="Nombre y Apellido"> <br>
                     <br>
-                    <input type="text" style="background-color: #3C2313; border-radius: 15px; width: 340px; height: 40px; border: none;" placeholder="   Ingresá tu correo electrónico"> <br>
+                    <input type="text" style="background-color: #3C2313; border-radius: 15px; width: 340px; height: 40px; border: none;" placeholder="Ingresá tu correo electrónico"> <br>
                     <br>
-                    <input type="text" style="background-color: #3C2313; border-radius: 15px; width: 340px; height: 40px;" placeholder="   Teléfono"><br>
+                    <input type="text" style="background-color: #3C2313; border-radius: 15px; width: 340px; height: 40px;" placeholder="Teléfono"><br>
                 </form>
                 <br>
                 <br>
@@ -123,15 +98,38 @@
                 <button  style="background-color: #3C2313; border-radius: 15px; width: 85px; height: 34px; color: #FFFFFF;">Suscribirme</button>
             </section>
                 
-            <section id="datos_de_contacto" style="background-color: #3C2313; display: grid; grid-template: 20px 1fr 20px 1fr 20px 1fr 20px/ 66px 1fr 1fr 166px 66px;">
+            <section id="datos_de_contacto" style="background-color: #3C2313; display: grid; grid-template: 20px 66px 20px 66px 20px 66px 20px/ 70px 66px 25px 1fr 166px 70px;">
                     
-                <img src="./img/Location.png" alt="Location" width="179px" height="66px" style="grid-area: 2/2/3/3;">
+    <!--        <img src="./img/Location.png" alt="Location" width="179px" height="66px" style="grid-area: 2/2/3/3;"> -->
+    <div class="icono-de-contacto" id="icono1"><i class="fas fa-map-marker-alt fa-2x"></i></div>
+    
+    <div id="datos-contacto1">
+        <p class="item-contacto">Localidad</p>
+        <p class="dato-item">Calle - provincia</p>
+    </div>
 
+    <div class="icono-de-contacto" id="icono2"><i class="fas fa-phone-alt fa-2x"></i></div>
+    
+    <div id="datos-contacto2">
+        <p class="item-contacto">Teléfono</p>
+        <p class="dato-item">Número de teléfono</p>
+    </div> 
+
+    <div class="icono-de-contacto" id="icono3"><i class="fas fa-envelope fa-2x"></i></div>
+    
+    <div id="datos-contacto3">
+        <p class="item-contacto">Correo Electrónico</p>
+        <p class="dato-item">Dirección de correo</p>
+    </div> 
+    
+    
+
+<!--
                 <img src="./img/Phone.png" alt="Phone" width="181px" height="66px" style="grid-area: 4/2/5/3;">
 
                 <img src="./img/Correo.png" alt="Correo" width="259px" height="66px" style="grid-area: 6/2/7/3;">
-                    
-                <div style="grid-area: 4/4/5/5;">
+                    -->
+                <div style="grid-area: 4/5/5/6;">
                     <p style="grid-template-rows: 1fr 1fr 1fr;">
                         <img src="./img/Logo (1).png" alt="" style="grid-row: 2/3;" >
                     </p>

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                        body{
+                font-family: 'Roboto', sans-serif;
+                margin: 0%;
+            }
+
+            button{
+                border: none;
+            }
+
+            input{
+                border: none;
+            }
+
+            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                        color: white;
+                        opacity: 1; /* Firefox */
+                        padding-left: 14px;
+            }
+
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                        color: white;
+                        padding-left: 14px;                        
+            }
+
+            ::-ms-input-placeholder { /* Microsoft Edge */
+                        color: white;
+                        padding-left: 14px;
+            }
+
+            footer ::placeholder {
+                color: #A0A0A0;
+                padding-left: 8px;
+
+            }
+
+            footer :-ms-input-placeholder { /* Internet Explorer 10-11 */ /**/ 
+                        color: white;
+                        padding-left: 14px;                        
+            }
+
+            footer ::-ms-input-placeholder { /* Microsoft Edge */
+                        color: white;
+                        padding-left: 14px;
+            }
+
+            .icono-de-contacto{                
+                background-color: #8A8787;
+                border: solid 4px;
+                border-color: #786960;
+                border-radius: 50%;
+                color: white;
+            }
+            
+            .icono-de-contacto i{
+                display: flex;
+                justify-content: center;
+                padding-top: 12px;
+            }
+
+            #icono1{
+                grid-area: 2/2/3/3;
+            }
+
+            #icono2{
+                grid-area: 4/2/5/3;
+            }
+
+            #icono3{
+                grid-area: 6/2/7/3;
+            }
+
+            #datos-contacto1{
+                grid-area: 2/4/3/5;
+            }
+
+            #datos-contacto2{
+                grid-area: 4/4/5/5;
+            }
+
+            #datos-contacto3{
+                grid-area: 6/4/7/5;
+            }
+
+            .item-contacto{
+                color: white;
+                font-size: 20px;
+                font-weight: 700;
+                margin: 0%;
+        }
+
+        .dato-item{
+            color: #8A8787;
+            font-size: 10px;
+            font-weight: 700;
+            margin: 0%;
+        }
